@@ -296,25 +296,25 @@ DEFAULT_SONGS_JSON: List[Dict[str, str]] = [
         "id": "frere-jacques",
         "title": "Frère Jacques (opening)",
         "notes": "C4 D4 E4 C4 C4 D4 E4 C4 E4 F4 G4 E4 F4 G4",
-        "code": "UUDRUUDRUUDUU",
+        "code": "UUDRUUDUUUDUU",
     },
     {
         "id": "mary-lamb",
         "title": "Mary Had a Little Lamb",
         "notes": "E4 D4 C4 D4 E4 E4 E4 D4 D4 D4 E4 G4 G4 E4 D4 C4 D4 E4 E4 E4 E4 D4 D4 E4 D4 C4",
-        "code": "DDUURRDRRRUURDDUURRRDRUDD",
+        "code": "DDUURRDRRUURDDDUURRRDRUDD",
     },
     {
         "id": "row-your-boat",
         "title": "Row Row Row Your Boat",
         "notes": "C4 C4 C4 D4 E4 E4 D4 E4 F4 G4 C5 C5 C5 G4 G4 G4 E4 E4 E4 C4 C4 C4 G4 F4 E4 D4 C4",
-        "code": "RRUURDUUUURRRDDDRRRDDDRUDDDD",
+        "code": "RRUURDUUUURRDRRDRRDRUDDDD",
     },
     {
         "id": "jingle-bells",
         "title": "Jingle Bells (chorus)",
         "notes": "E4 E4 E4 E4 E4 E4 E4 G4 C4 D4 E4 F4 F4 F4 F4 F4 E4 E4 E4 E4 D4 D4 E4 D4 G4",
-        "code": "RRRRRRUDUUURRRRDRRRDDRDU",
+        "code": "RRRRRRUDUUURRRRDRRRDRUDU",
     },
     {
         "id": "london-bridge",
@@ -338,7 +338,7 @@ DEFAULT_SONGS_JSON: List[Dict[str, str]] = [
         "id": "brahms-lullaby",
         "title": "Brahms' Lullaby (opening)",
         "notes": "E4 E4 G4 E4 E4 G4 E4 G4 C5 B4 A4 A4 G4 D4 E4 F4 D4 D4 E4 F4",
-        "code": "RUDRUDUUDDRDDDUUDRUU",
+        "code": "RUDRUDUUDDRDDUUDRUU",
     },
 ]
 
@@ -1176,7 +1176,6 @@ def render_results_section(response: SearchResponse):
             use_container_width=True,
             hide_index=True,
         )
-
 
 
 def main():
