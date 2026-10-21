@@ -308,7 +308,7 @@ DEFAULT_SONGS_JSON: List[Dict[str, str]] = [
         "id": "row-your-boat",
         "title": "Row Row Row Your Boat",
         "notes": "C4 C4 C4 D4 E4 E4 D4 E4 F4 G4 C5 C5 C5 G4 G4 G4 E4 E4 E4 C4 C4 C4 G4 F4 E4 D4 C4",
-        "code": "RRUURDUUUURRDRRDRRDRUDDDD",
+        "code": "RRUURDUUUURRDRRDRRDRRUDDDD",
     },
     {
         "id": "jingle-bells",
